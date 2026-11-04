@@ -1,0 +1,16 @@
+# 本地敏感配置：真 key 绝不入 Git
+.env
+
+# Python 运行时产物
+__pycache__/
+*.pyc
+.venv/
+
+# 本地日志与临时请求文件
+logs/
+*.log
+q1.json
+q2.json
+
+# 本地工具目录
+.mimosa/

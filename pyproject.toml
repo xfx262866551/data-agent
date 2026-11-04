@@ -1,0 +1,27 @@
+[project]
+name = "data-agent"
+version = "0.1.0"
+description = "NL2SQL 问数智能体：自然语言 → SQL 生成、校验、自纠与执行（LangGraph + FastAPI）"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.141",
+    "uvicorn[standard]>=0.52",
+    "pydantic>=2.13",
+    "omegaconf>=2.4",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "loguru>=0.7",
+    "jieba>=0.42",
+    "openai>=3.3",
+    "langchain>=1.4",
+    "langchain-openai>=1.6",
+    "langgraph>=1.2",
+    "elasticsearch[async]>=8.19,<9",
+    "qdrant-client>=1.19",
+    "sqlalchemy>=2.0.52",
+    "asyncmy>=0.2.16",
+    "greenlet>=3.5",
+]
+
+[tool.ruff]
+line-length = 100

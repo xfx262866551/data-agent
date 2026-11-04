@@ -1,0 +1,22 @@
+[
+  {"question": "2025年1月各大区的销售额是多少",
+   "expect_numbers": [54924.0, 28096.5, 11397.0, 10592.0, 4021.0]},
+  {"question": "2025年全年哪个大区销售额最高",
+   "expect_numbers": [107373.0]},
+  {"question": "金牌会员的客户有多少人",
+   "expect_numbers": [6]},
+  {"question": "卖得最好的商品是什么",
+   "expect_numbers": [183]},
+  {"question": "2026年1月的销售额是多少",
+   "expect_empty": true},
+  {"question": "2025年2月的总销售额是多少",
+   "expect_numbers": [80009.0]},
+  {"question": "2025年3月的销售额是多少",
+   "expect_numbers": [90120.0]},
+  {"question": "2025年全年总销售额是多少",
+   "expect_numbers": [279159.5]},
+  {"question": "2025年全年哪个大区销售额最低",
+   "expect_numbers": [28957.0]},
+  {"question": "银牌会员有多少客户",
+   "expect_numbers": [5]}
+]
